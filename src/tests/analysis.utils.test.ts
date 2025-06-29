@@ -8,7 +8,7 @@ import {
 } from '@utils/analysis';
 import { Highlights } from '@app-types/common';
 
-describe('Analysis Utils', () => {
+describe('Утилиты для анализа', () => {
     describe('isCsvFile', () => {
         it('Если загрузить файл, правильно определяет является ли он CSV', () => {
             const csvFile = new File([''], 'test.csv');
